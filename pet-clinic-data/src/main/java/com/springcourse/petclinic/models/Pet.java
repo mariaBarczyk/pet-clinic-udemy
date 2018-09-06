@@ -1,4 +1,4 @@
-package model;
+package com.springcourse.petclinic.models;
 
 import java.time.LocalDate;
 
