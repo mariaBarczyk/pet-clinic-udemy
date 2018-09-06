@@ -1,4 +1,4 @@
-package services;
+package com.springcourse.petclinic.services;
 
 import com.springcourse.petclinic.models.Owner;
 
