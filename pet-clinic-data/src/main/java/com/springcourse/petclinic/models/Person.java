@@ -1,9 +1,13 @@
 package com.springcourse.petclinic.models;
 
+import javax.persistence.MappedSuperclass;
+
+@MappedSuperclass
 public class Person extends BaseEntity {
 
     private String firstName;
     private String lastName;
+
 
     public String getFirstName() {
         return firstName;
