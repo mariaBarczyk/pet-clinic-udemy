@@ -1,7 +1,6 @@
 package com.springcourse.petclinic.services.map;
 
 import com.springcourse.petclinic.models.Visit;
-import com.springcourse.petclinic.repositories.VisitRepository;
 import com.springcourse.petclinic.services.VisitService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
@@ -9,7 +8,6 @@ import org.springframework.stereotype.Service;
 import java.util.Set;
 
 @Service
-@Profile("springdatajpa")
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
 
     @Override
